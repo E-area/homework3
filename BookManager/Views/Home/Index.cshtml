@@ -5,4 +5,53 @@
 <div class="text-center">
     <h1 class="display-4">Welcome，ZZ老师！</h1>
     <p>这里是一个图书管理系统，点击导航栏的Books即可进入.</p>
+    <ul>
+        <li>
+            Test!!!
+        </li>
+        <li>
+            wowwwww!
+        </li>
+    </ul>
+    <table id="testTa" border="1">
+        <tr>
+            <td>
+                啦啦啦
+            </td>
+            <td>
+                <input type="button" value="delete" onclick="remove(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                啦啦lalalalal 啦
+            </td>
+            <td>
+                <input type="button" value="delete" onclick="remove(this)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                111111111啦啦
+            </td>
+            <td>
+                <input type="button" value="delete" onclick="remove(this)" />
+            </td>
+        </tr>
+    </table>
 </div>
+<script>
+    var list = document.getElementsByTagName('li');
+    for(var i=0;i<list.length;i++){
+        list[i].onclick = function(){
+            alert(this.innerHTML);
+        }
+    }
+
+    function remove(obj){
+        var target = obj.parentElement.parentElement;
+        var index = target.rowIndex;
+        var table = document.getElementById("testTa");
+        table.deleteRow(index);
+    }
+</script>

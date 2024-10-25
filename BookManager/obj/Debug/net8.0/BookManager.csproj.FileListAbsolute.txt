@@ -256,3 +256,4 @@ C:\Users\Terra233\source\repos\BookManager\BookManager\obj\Debug\net8.0\refint\B
 C:\Users\Terra233\source\repos\BookManager\BookManager\obj\Debug\net8.0\BookManager.pdb
 C:\Users\Terra233\source\repos\BookManager\BookManager\obj\Debug\net8.0\BookManager.genruntimeconfig.cache
 C:\Users\Terra233\source\repos\BookManager\BookManager\obj\Debug\net8.0\ref\BookManager.dll
+C:\Users\Terra233\source\repos\BookManager\BookManager\obj\Debug\net8.0\BookManager.sourcelink.json
